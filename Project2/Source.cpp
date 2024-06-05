@@ -244,7 +244,7 @@ namespace MyGeometry
 			Shape::info();
 		}
 	};
-	Shape* ShapeFactory(int shape_id)
+	/*Shape* ShapeFactory(int shape_id)
 	{
 		Shape* shape = nullptr;
 		int size = rand() % Shape::MAX_SIZE;
@@ -257,7 +257,7 @@ namespace MyGeometry
 
 		}
 		return shape
-	}
+	}*/
 }
 
 void main()
